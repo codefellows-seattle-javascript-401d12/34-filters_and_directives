@@ -1,0 +1,29 @@
+@import "../theme/vars";
+
+footer {
+  background: $brand-primary;
+  color: $white;
+  padding: $gutter-sm / 2;
+  font-size: 2vw;
+  display: flex;
+
+  h2 {
+    display: inline-block;
+    margin-top: 0;
+  }
+  ul {
+    display: inline-block;
+    padding-top: 1vw;
+  }
+  li {
+    margin: 0 $gutter-sm / 2;
+    display: inline-block;
+  }
+  span {
+    display: inline-block;
+    flex: auto;
+    text-align: right;
+    padding-top: 2vw;
+    font-size: 2vw;
+  }
+}
